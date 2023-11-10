@@ -81,7 +81,9 @@ break;
     }
 
     private static int arabicOperandToInt(String operand) {
-        return Integer.parseInt(operand);
+        int intOperand=Integer.parseInt(operand);
+        controlTen(intOperand);
+        return intOperand;
 
     }
 
